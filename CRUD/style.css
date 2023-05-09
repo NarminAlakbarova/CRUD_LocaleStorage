@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  padding: 20px 0px 80px 0px;
+  color: rgb(75, 8, 69);
+  font-family: 'Bruno Ace SC', cursive;
+}
+.btn-primary {
+  padding: 8px 25px;
+  background-color: blueviolet;
+  border: none;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  column-gap: 18px;
+}
+.fa-solid {
+  color: rgb(87, 84, 84);
+}
+.fa-solid:hover {
+  color: brown;
+}
+.card {
+  background-color: rgba(94, 32, 153, 0.233);
+}
+.allcards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.leftcol {
+  padding: 10px;
+  background-color: rgba(159, 107, 207, 0.425);
+  height: 300px;
+  border-radius: 30px;
+}
